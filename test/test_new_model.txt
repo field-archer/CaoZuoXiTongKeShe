@@ -1,0 +1,17 @@
+login admin admin
+create_pcb p1 6 0
+create_pcb p2 12 1
+create_pcb p3 20 2
+list_pcb
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+list_pcb
+exit

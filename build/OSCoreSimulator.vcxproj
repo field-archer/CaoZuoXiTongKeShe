@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7125E2DD-293E-3DD2-B779-922BDC42972E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OSCoreSimulator</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OSCoreSimulator.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OSCoreSimulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OSCoreSimulator.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OSCoreSimulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OSCoreSimulator.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OSCoreSimulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OSCoreSimulator.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OSCoreSimulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/Debug/OSCoreSimulator.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/bin/OSCoreSimulator.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/Release/OSCoreSimulator.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/bin/OSCoreSimulator.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/MinSizeRel/OSCoreSimulator.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/bin/OSCoreSimulator.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/RelWithDebInfo/OSCoreSimulator.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/bin/OSCoreSimulator.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe -BD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build --check-stamp-file D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-4.3\Modules\FindThreads.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe -BD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build --check-stamp-file D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-4.3\Modules\FindThreads.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe -BD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build --check-stamp-file D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-4.3\Modules\FindThreads.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe -BD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build --check-stamp-file D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-4.3\Modules\FindThreads.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\backend\BackendEngine.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\core\Platform.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeClient.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeServer.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\main.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\memory\MemoryManager.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\Serializer.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\StateFile.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\process\ProcessManager.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\MLFQ.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\Scheduler.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\FileLock.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\SharedQueue.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ui\CommandParser.cpp" />
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\user\UserManager.cpp" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\BackendEngine.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Config.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Platform.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Types.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeClient.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeServer.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryBlock.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryManager.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\persist\Serializer.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\persist\StateFile.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\process\PCB.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\process\ProcessManager.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\MLFQ.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\Scheduler.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\FileLock.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\Message.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\SharedQueue.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ui\CommandParser.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\User.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\UserManager.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\ZERO_CHECK.vcxproj">
+      <Project>{55050E5B-D051-3123-B980-5D6EB2C0CD74}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

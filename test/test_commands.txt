@@ -1,0 +1,60 @@
+# 操作系统核心模拟器 — 测试脚本
+# 用于验证所有核心功能
+
+# === 用户管理 ===
+login admin admin
+create_pcb proc_a 3
+create_pcb proc_b 7
+create_pcb proc_c 12
+list_pcb
+ptree
+
+# === 查看进程详情 ===
+show_pcb 2
+
+# === 进程操作 ===
+block_pcb 2
+list_pcb
+wakeup_pcb 2
+list_pcb
+suspend 3
+list_pcb
+resume 3
+list_pcb
+renice 2 10
+show_pcb 2
+
+# === 内存管理 ===
+alloc 64 2
+alloc 128 3
+show_mem
+mem_stat
+free_mem 0
+show_mem
+compact
+mem_stat
+set_alloc_algo bf
+alloc 32 2
+show_mem
+set_alloc_algo wf
+alloc 16 3
+show_mem
+set_alloc_algo ff
+pgfault
+swap_out 2
+show_mem
+
+# === 调度器单步 ===
+step
+step
+step
+
+# === 整体视图 ===
+overview
+
+# === 持久化 ===
+save
+list_pcb
+
+# === 退出 ===
+exit

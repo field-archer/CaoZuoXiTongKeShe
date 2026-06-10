@@ -1,0 +1,8 @@
+# 加载测试 — 重启后恢复
+login admin admin
+list_pcb
+show_mem
+show_pcb 2
+ptree
+overview
+exit

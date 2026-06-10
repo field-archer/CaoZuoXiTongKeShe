@@ -1,0 +1,10 @@
+^D:\CODEPROJECTS\UNIVERSITY\2.5\CAOZUOXITONG\KESHE\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe -BD:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build --check-stamp-file D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

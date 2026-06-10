@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\backend\BackendEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\core\Platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\memory\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\StateFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\process\ProcessManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\MLFQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\FileLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\SharedQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ui\CommandParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\user\UserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\BackendEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\persist\Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\persist\StateFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\process\PCB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\process\ProcessManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\MLFQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\FileLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\SharedQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ui\CommandParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\UserManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{55158C93-058A-3DE6-A471-C4FBC293FA96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{437F5604-1671-3A07-A5B5-BAEF486131E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

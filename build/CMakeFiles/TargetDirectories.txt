@@ -1,0 +1,4 @@
+D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/OSCoreSimulator.dir
+D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/INSTALL.dir
+D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/ALL_BUILD.dir
+D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/ZERO_CHECK.dir
