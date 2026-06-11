@@ -1,5 +1,4 @@
 #include "memory/MemoryManager.h"
-#include "process/ProcessManager.h"
 #include "core/Config.h"
 #include <sstream>
 #include <iomanip>
@@ -151,51 +150,25 @@ std::string MemoryManager::free_mem(uint32_t start_addr) {
 }
 
 // ── 3. show_mem ──
-std::string MemoryManager::show_mem(const ProcessManager* pm, const std::string& owner) const {
-    auto visible = [&](const MemoryBlock& b) -> bool {
-        if (b.is_free) return true;
-        if (owner.empty()) return true;
-        if (!pm) return true;
-        const PCB* pcb = pm->get_pcb(b.owner_pid);
-        return pcb && (pcb->owner == owner || pcb->pid == 1);
-    };
-
+std::string MemoryManager::show_mem() const {
     std::ostringstream oss;
     oss << "─────────────── 内存布局 ───────────────" << std::endl;
     oss << "算法: " << algo_to_string(algo_) << std::endl;
-
-    // 内存 ASCII 图
     oss << "Memory Map (0-" << TOTAL_MEMORY_KB << "KB):" << std::endl;
     for (const auto& b : blocks_) {
-        if (!visible(b)) {
-            oss << "|--other(" << b.size << "K)--";
-        } else if (b.is_free) {
-            oss << "|--free(" << b.size << "K)--";
-        } else if (b.swapped_out) {
-            oss << "|??" << b.owner_name.substr(0, 6)
-                << "(" << b.size << "K)";
-        } else {
-            oss << "|##" << b.owner_name.substr(0, 6)
-                << "(" << b.size << "K)";
-        }
+        if (b.is_free) oss << "|--free(" << b.size << "K)--";
+        else if (b.swapped_out) oss << "|??" << b.owner_name.substr(0,6) << "(" << b.size << "K)";
+        else oss << "|##" << b.owner_name.substr(0,6) << "(" << b.size << "K)";
     }
     oss << "|" << std::endl;
-
-    // 详细列表
     oss << "─────────────────────────────────────────" << std::endl;
     oss << "起始地址\t大小\t\t状态\t\t所属" << std::endl;
     oss << "─────────────────────────────────────────" << std::endl;
     for (const auto& b : blocks_) {
-        oss << b.start_addr << "K\t\t"
-            << b.size << "K\t\t";
-        if (!visible(b))
-            oss << "其他用户\t\t—";
-        else if (b.is_free)
-            oss << "空闲\t\t—";
-        else if (b.swapped_out)
-            oss << "已换出\t\t" << b.owner_name << "(" << b.owner_pid << ")";
-        else
-            oss << "已分配\t\t" << b.owner_name << "(" << b.owner_pid << ")";
+        oss << b.start_addr << "K\t\t" << b.size << "K\t\t";
+        if (b.is_free) oss << "空闲\t\t—";
+        else if (b.swapped_out) oss << "已换出\t\t" << b.owner_name << "(" << b.owner_pid << ")";
+        else oss << "已分配\t\t" << b.owner_name << "(" << b.owner_pid << ")";
         oss << std::endl;
     }
     oss << "─────────────────────────────────────────";
@@ -333,17 +306,17 @@ std::pair<uint32_t, std::string> MemoryManager::swap_out(uint32_t pid) {
 /// 缺页换入：检查是否有足够空间（本进程换出块 + 空闲），够则换入，否则失败
 uint32_t MemoryManager::pgfault_alloc(uint32_t pid, uint32_t needed_size) {
     // 1) 统计本进程换出块总大小 + 空闲总大小
-    uint32_t my_swapped = 0, total_free = 0;
+    uint32_t swapped = 0, total_free = 0;
     for (const auto& b : blocks_) {
-        if (b.swapped_out && b.owner_pid == pid) my_swapped += b.size;
-        if (b.is_free) total_free += b.size;
+        if (b.swapped_out) swapped += b.size;
+        else if (b.is_free) total_free += b.size;
     }
-    if (my_swapped + total_free < needed_size)
+    if (swapped + total_free < needed_size)
         return UINT32_MAX; // 不够
 
     // 2) 取消本进程换出标记
     for (auto& b : blocks_)
-        if (b.swapped_out && b.owner_pid == pid)
+        if (b.swapped_out)
             b.swapped_out = false;
     merge_adjacent_free();
 

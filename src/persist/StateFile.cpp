@@ -11,7 +11,7 @@ bool StateFile::exists() const { return Platform::file_exists(path_); }
 
 bool StateFile::save(UserManager& um, const std::unordered_map<std::string, UserState>& users) {
     std::ostringstream buffer(std::ios::binary);
-    Serializer::write_magic(buffer, MAGIC);
+    Serializer::write_magic(buffer, MAGIC);// 文件类型
     Serializer::write_u32(buffer, VERSION);
     Serializer::write_u32(buffer, 0); // CRC placeholder
     Serializer::write_u64(buffer, Platform::current_time_ms());
@@ -47,11 +47,13 @@ bool StateFile::load(UserManager& um, std::unordered_map<std::string, UserState>
     if (!exists()) return false;
     std::ifstream file(path_, std::ios::binary);
     if (!file) return false;
+    // 从文件初始化data
     std::string data((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     file.close();
     if (data.size() < 20) return false;
+    // 检查文件类型
     if (data[0]!=MAGIC[0] || data[1]!=MAGIC[1] || data[2]!=MAGIC[2] || data[3]!=MAGIC[3]) return false;
-
+    // 检查版本
     uint32_t fver; std::memcpy(&fver, &data[4], sizeof(fver));
     if (fver != VERSION) return false;
 

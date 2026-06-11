@@ -379,7 +379,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\backend\BackendEngine.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\core\Platform.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeClient.cpp" />
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeServer.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\main.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\memory\MemoryManager.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\Serializer.cpp" />
@@ -387,16 +386,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\process\ProcessManager.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\MLFQ.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\Scheduler.cpp" />
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\FileLock.cpp" />
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\SharedQueue.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ui\CommandParser.cpp" />
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\user\UserManager.cpp" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\BackendEngine.h" />
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\UserState.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Config.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Platform.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Types.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeClient.h" />
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeServer.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryBlock.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryManager.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\persist\Serializer.h" />
@@ -405,9 +402,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\process\ProcessManager.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\MLFQ.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\Scheduler.h" />
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\FileLock.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\Message.h" />
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\SharedQueue.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ui\CommandParser.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\User.h" />
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\user\UserManager.h" />

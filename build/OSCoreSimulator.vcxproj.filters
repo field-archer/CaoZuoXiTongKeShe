@@ -10,9 +10,6 @@
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeServer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -34,12 +31,6 @@
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\FileLock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\SharedQueue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ui\CommandParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,6 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\BackendEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\backend\UserState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\core\Config.h">
@@ -61,9 +55,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeClient.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ipc\PipeServer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\memory\MemoryBlock.h">
@@ -90,13 +81,7 @@
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\scheduler\Scheduler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\FileLock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\Message.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\thread\SharedQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\include\ui\CommandParser.h">

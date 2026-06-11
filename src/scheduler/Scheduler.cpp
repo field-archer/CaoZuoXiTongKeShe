@@ -6,7 +6,7 @@
 #include <sstream>
 
 Scheduler::Scheduler(MLFQ& mlfq, ProcessManager& pm, MemoryManager& mm,
-                     std::mutex* backend_mtx)
+                     std::shared_mutex* backend_mtx)
     : mlfq_(mlfq), pm_(pm), mm_(mm), backend_mtx_(backend_mtx) {}
 
 Scheduler::~Scheduler() {
@@ -83,9 +83,9 @@ void Scheduler::auto_loop() {
 
         int tick_level = 0;
         std::string log;
-        if (backend_mtx_) backend_mtx_->lock();
+        std::unique_lock<std::shared_mutex> lock;
+        if (backend_mtx_) lock = std::unique_lock<std::shared_mutex>(*backend_mtx_);
         log = do_tick_with_level(tick_level);
-        if (backend_mtx_) backend_mtx_->unlock();
 
         std::cout << log << std::endl;
 

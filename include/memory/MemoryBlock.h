@@ -10,8 +10,6 @@ struct MemoryBlock {
     uint32_t    owner_pid   = 0;     // 所属进程 PID（0 = 空闲）
     std::string owner_name;          // 进程名（便于显示）
     bool        swapped_out = false; // 是否已换出
-
-    uint32_t end_addr() const { return start_addr + size; }
 };
 
 /// compact 返回的地址映射

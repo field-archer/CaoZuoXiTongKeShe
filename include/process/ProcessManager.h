@@ -14,8 +14,8 @@ public:
     std::string block_pcb(uint32_t pid);
     std::string wakeup_pcb(uint32_t pid);
     std::string show_pcb(uint32_t pid) const;
-    std::string list_pcb(const std::string& owner = "") const;
-    std::string ptree(const std::string& owner = "") const;
+    std::string list_pcb() const;
+    std::string ptree() const;
     std::string suspend(uint32_t pid);
     std::string resume(uint32_t pid);
     std::string renice(uint32_t pid, int new_queue);

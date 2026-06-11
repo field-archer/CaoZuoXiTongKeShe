@@ -35,13 +35,14 @@ events:
     found: "D:/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -61,7 +62,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -89,8 +90,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -107,7 +109,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
-      鐢熸垚鍚姩鏃堕棿涓?2026/6/8 13:55:49銆?
+      鐢熸垚鍚姩鏃堕棿涓?2026/6/10 17:13:56銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -136,7 +138,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:00.76
+      宸茬敤鏃堕棿 00:00:01.45
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -169,13 +171,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -195,9 +194,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -215,20 +217,22 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -248,7 +252,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -276,8 +280,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -301,13 +306,10 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -327,9 +329,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -347,33 +352,25 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
-      - "D:/Anaconda/lld-link.com"
-      - "D:/Anaconda/lld-link.exe"
-      - "D:/Anaconda/lld-link"
-      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.com"
-      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.exe"
-      - "D:/Anaconda/Library/mingw-w64/bin/lld-link"
-      - "D:/Anaconda/Library/usr/bin/lld-link.com"
-      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
-      - "D:/Anaconda/Library/usr/bin/lld-link"
-      - "D:/Anaconda/Library/bin/lld-link.com"
-      - "D:/Anaconda/Library/bin/lld-link.exe"
-      - "D:/Anaconda/Library/bin/lld-link"
-      - "D:/Anaconda/Scripts/lld-link.com"
-      - "D:/Anaconda/Scripts/lld-link.exe"
-      - "D:/Anaconda/Scripts/lld-link"
-      - "D:/Anaconda/bin/lld-link.com"
-      - "D:/Anaconda/bin/lld-link.exe"
-      - "D:/Anaconda/bin/lld-link"
-      - "D:/Anaconda/condabin/lld-link.com"
-      - "D:/Anaconda/condabin/lld-link.exe"
-      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Users/hp/bin/lld-link.com"
+      - "C:/Users/hp/bin/lld-link.exe"
+      - "C:/Users/hp/bin/lld-link"
+      - "D:/Git/mingw64/bin/lld-link.com"
+      - "D:/Git/mingw64/bin/lld-link.exe"
+      - "D:/Git/mingw64/bin/lld-link"
+      - "D:/Git/usr/local/bin/lld-link.com"
+      - "D:/Git/usr/local/bin/lld-link.exe"
+      - "D:/Git/usr/local/bin/lld-link"
+      - "D:/Git/usr/bin/lld-link.com"
+      - "D:/Git/usr/bin/lld-link.exe"
+      - "D:/Git/usr/bin/lld-link"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/lld-link.com"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/lld-link.exe"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/lld-link"
@@ -431,15 +428,24 @@ events:
       - "C:/msys64/mingw64/bin/lld-link.com"
       - "C:/msys64/mingw64/bin/lld-link.exe"
       - "C:/msys64/mingw64/bin/lld-link"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/lld-link"
       - "D:/nvm/lld-link.com"
       - "D:/nvm/lld-link.exe"
       - "D:/nvm/lld-link"
       - "C:/nvm4w/nodejs/lld-link.com"
       - "C:/nvm4w/nodejs/lld-link.exe"
       - "C:/nvm4w/nodejs/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
       - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
       - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
@@ -491,22 +497,26 @@ events:
       - "D:/redis/redis/lld-link.com"
       - "D:/redis/redis/lld-link.exe"
       - "D:/redis/redis/lld-link"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/lld-link.com"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/lld-link.exe"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/lld-link"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "D:/mingw64/bin/lld-link.com"
+      - "D:/mingw64/bin/lld-link.exe"
+      - "D:/mingw64/bin/lld-link"
+      - "D:/Git/usr/bin/vendor_perl/lld-link.com"
+      - "D:/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "D:/Git/usr/bin/vendor_perl/lld-link"
+      - "D:/Git/usr/bin/core_perl/lld-link.com"
+      - "D:/Git/usr/bin/core_perl/lld-link.exe"
+      - "D:/Git/usr/bin/core_perl/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -526,7 +536,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -554,8 +564,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -577,13 +588,10 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -603,9 +611,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -623,20 +634,22 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -656,7 +669,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -684,8 +697,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -707,13 +721,10 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -733,9 +744,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -753,33 +767,25 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
-      - "D:/Anaconda/mt.com"
-      - "D:/Anaconda/mt.exe"
-      - "D:/Anaconda/mt"
-      - "D:/Anaconda/Library/mingw-w64/bin/mt.com"
-      - "D:/Anaconda/Library/mingw-w64/bin/mt.exe"
-      - "D:/Anaconda/Library/mingw-w64/bin/mt"
-      - "D:/Anaconda/Library/usr/bin/mt.com"
-      - "D:/Anaconda/Library/usr/bin/mt.exe"
-      - "D:/Anaconda/Library/usr/bin/mt"
-      - "D:/Anaconda/Library/bin/mt.com"
-      - "D:/Anaconda/Library/bin/mt.exe"
-      - "D:/Anaconda/Library/bin/mt"
-      - "D:/Anaconda/Scripts/mt.com"
-      - "D:/Anaconda/Scripts/mt.exe"
-      - "D:/Anaconda/Scripts/mt"
-      - "D:/Anaconda/bin/mt.com"
-      - "D:/Anaconda/bin/mt.exe"
-      - "D:/Anaconda/bin/mt"
-      - "D:/Anaconda/condabin/mt.com"
-      - "D:/Anaconda/condabin/mt.exe"
-      - "D:/Anaconda/condabin/mt"
+      - "C:/Users/hp/bin/mt.com"
+      - "C:/Users/hp/bin/mt.exe"
+      - "C:/Users/hp/bin/mt"
+      - "D:/Git/mingw64/bin/mt.com"
+      - "D:/Git/mingw64/bin/mt.exe"
+      - "D:/Git/mingw64/bin/mt"
+      - "D:/Git/usr/local/bin/mt.com"
+      - "D:/Git/usr/local/bin/mt.exe"
+      - "D:/Git/usr/local/bin/mt"
+      - "D:/Git/usr/bin/mt.com"
+      - "D:/Git/usr/bin/mt.exe"
+      - "D:/Git/usr/bin/mt"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/mt.com"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/mt.exe"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/mt"
@@ -837,15 +843,24 @@ events:
       - "C:/msys64/mingw64/bin/mt.com"
       - "C:/msys64/mingw64/bin/mt.exe"
       - "C:/msys64/mingw64/bin/mt"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/mt"
       - "D:/nvm/mt.com"
       - "D:/nvm/mt.exe"
       - "D:/nvm/mt"
       - "C:/nvm4w/nodejs/mt.com"
       - "C:/nvm4w/nodejs/mt.exe"
       - "C:/nvm4w/nodejs/mt"
+      - "D:/Anaconda/mt.com"
+      - "D:/Anaconda/mt.exe"
+      - "D:/Anaconda/mt"
+      - "D:/Anaconda/Scripts/mt.com"
+      - "D:/Anaconda/Scripts/mt.exe"
+      - "D:/Anaconda/Scripts/mt"
+      - "D:/Anaconda/Library/bin/mt.com"
+      - "D:/Anaconda/Library/bin/mt.exe"
+      - "D:/Anaconda/Library/bin/mt"
       - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
       - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/mt"
@@ -897,22 +912,26 @@ events:
       - "D:/redis/redis/mt.com"
       - "D:/redis/redis/mt.exe"
       - "D:/redis/redis/mt"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/mt.com"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/mt.exe"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/mt"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "D:/mingw64/bin/mt.com"
+      - "D:/mingw64/bin/mt.exe"
+      - "D:/mingw64/bin/mt"
+      - "D:/Git/usr/bin/vendor_perl/mt.com"
+      - "D:/Git/usr/bin/vendor_perl/mt.exe"
+      - "D:/Git/usr/bin/vendor_perl/mt"
+      - "D:/Git/usr/bin/core_perl/mt.com"
+      - "D:/Git/usr/bin/core_perl/mt.exe"
+      - "D:/Git/usr/bin/core_perl/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -932,7 +951,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -960,8 +979,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -983,13 +1003,10 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -1009,9 +1026,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -1029,20 +1049,22 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -1062,7 +1084,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -1090,8 +1112,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1115,13 +1138,10 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "D:/Anaconda/"
-      - "D:/Anaconda/Library/mingw-w64/bin/"
-      - "D:/Anaconda/Library/usr/bin/"
-      - "D:/Anaconda/Library/bin/"
-      - "D:/Anaconda/Scripts/"
-      - "D:/Anaconda/bin/"
-      - "D:/Anaconda/condabin/"
+      - "C:/Users/hp/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -1141,9 +1161,12 @@ events:
       - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
       - "D:/go/go/bin/"
       - "C:/msys64/mingw64/bin/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/"
       - "D:/nvm/"
       - "C:/nvm4w/nodejs/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "D:/CMake/bin/"
       - "D:/Miniconda3/"
@@ -1161,8 +1184,9 @@ events:
       - "D:/App/Cardinal AI/Cardinal System/"
       - "D:/go/protobuf/bin/"
       - "D:/redis/redis/"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1176,27 +1200,18 @@ events:
       - "C:/Program Files (x86)/OSCoreSimulator/sbin/"
       - "C:/Program Files (x86)/OSCoreSimulator/"
     searched_directories:
-      - "D:/Anaconda/rc.com"
-      - "D:/Anaconda/rc.exe"
-      - "D:/Anaconda/rc"
-      - "D:/Anaconda/Library/mingw-w64/bin/rc.com"
-      - "D:/Anaconda/Library/mingw-w64/bin/rc.exe"
-      - "D:/Anaconda/Library/mingw-w64/bin/rc"
-      - "D:/Anaconda/Library/usr/bin/rc.com"
-      - "D:/Anaconda/Library/usr/bin/rc.exe"
-      - "D:/Anaconda/Library/usr/bin/rc"
-      - "D:/Anaconda/Library/bin/rc.com"
-      - "D:/Anaconda/Library/bin/rc.exe"
-      - "D:/Anaconda/Library/bin/rc"
-      - "D:/Anaconda/Scripts/rc.com"
-      - "D:/Anaconda/Scripts/rc.exe"
-      - "D:/Anaconda/Scripts/rc"
-      - "D:/Anaconda/bin/rc.com"
-      - "D:/Anaconda/bin/rc.exe"
-      - "D:/Anaconda/bin/rc"
-      - "D:/Anaconda/condabin/rc.com"
-      - "D:/Anaconda/condabin/rc.exe"
-      - "D:/Anaconda/condabin/rc"
+      - "C:/Users/hp/bin/rc.com"
+      - "C:/Users/hp/bin/rc.exe"
+      - "C:/Users/hp/bin/rc"
+      - "D:/Git/mingw64/bin/rc.com"
+      - "D:/Git/mingw64/bin/rc.exe"
+      - "D:/Git/mingw64/bin/rc"
+      - "D:/Git/usr/local/bin/rc.com"
+      - "D:/Git/usr/local/bin/rc.exe"
+      - "D:/Git/usr/local/bin/rc"
+      - "D:/Git/usr/bin/rc.com"
+      - "D:/Git/usr/bin/rc.exe"
+      - "D:/Git/usr/bin/rc"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/rc.com"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/rc.exe"
       - "C:/Users/hp/AppData/Local/Programs/Python/Python314/rc"
@@ -1254,15 +1269,24 @@ events:
       - "C:/msys64/mingw64/bin/rc.com"
       - "C:/msys64/mingw64/bin/rc.exe"
       - "C:/msys64/mingw64/bin/rc"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Users/hp/AppData/Local/Muse Hub/lib/rc"
       - "D:/nvm/rc.com"
       - "D:/nvm/rc.exe"
       - "D:/nvm/rc"
       - "C:/nvm4w/nodejs/rc.com"
       - "C:/nvm4w/nodejs/rc.exe"
       - "C:/nvm4w/nodejs/rc"
+      - "D:/Anaconda/rc.com"
+      - "D:/Anaconda/rc.exe"
+      - "D:/Anaconda/rc"
+      - "D:/Anaconda/Scripts/rc.com"
+      - "D:/Anaconda/Scripts/rc.exe"
+      - "D:/Anaconda/Scripts/rc"
+      - "D:/Anaconda/Library/bin/rc.com"
+      - "D:/Anaconda/Library/bin/rc.exe"
+      - "D:/Anaconda/Library/bin/rc"
       - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
       - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/rc"
@@ -1314,12 +1338,15 @@ events:
       - "D:/redis/redis/rc.com"
       - "D:/redis/redis/rc.exe"
       - "D:/redis/redis/rc"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/rc.com"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/rc.exe"
-      - "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/rc"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
-      - "C:/Users/hp/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "D:/mingw64/bin/rc.com"
+      - "D:/mingw64/bin/rc.exe"
+      - "D:/mingw64/bin/rc"
+      - "D:/Git/usr/bin/vendor_perl/rc.com"
+      - "D:/Git/usr/bin/vendor_perl/rc.exe"
+      - "D:/Git/usr/bin/vendor_perl/rc"
+      - "D:/Git/usr/bin/core_perl/rc.com"
+      - "D:/Git/usr/bin/core_perl/rc.exe"
+      - "D:/Git/usr/bin/core_perl/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1359,13 +1386,14 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "D:\\Anaconda"
-        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
-        - "D:\\Anaconda\\Library\\usr\\bin"
-        - "D:\\Anaconda\\Library\\bin"
-        - "D:\\Anaconda\\Scripts"
-        - "D:\\Anaconda\\bin"
-        - "D:\\Anaconda\\condabin"
+        - "C:\\Users\\hp\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\hp\\bin"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -1385,7 +1413,7 @@ events:
         - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
         - "D:\\go\\go\\bin"
         - "C:\\msys64\\mingw64\\bin"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\hp\\AppData\\Local\\Muse Hub\\lib"
         - "D:\\nvm"
         - "C:\\nvm4w\\nodejs"
         - "D:\\go\\go\\bin"
@@ -1413,8 +1441,9 @@ events:
         - "D:\\App\\Cardinal AI\\Cardinal System"
         - "D:\\go\\protobuf\\bin"
         - "D:\\redis\\redis"
-        - "."
-        - "c:\\Users\\hp\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OSCoreSimulator"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1430,8 +1459,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-zhwspk"
-      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-zhwspk"
+      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-a282g0"
+      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-a282g0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1442,39 +1471,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-zhwspk'
+        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-a282g0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6dfa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9473.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
-        鐢熸垚鍚姩鏃堕棿涓?2026/6/8 13:55:50銆?
+        鐢熸垚鍚姩鏃堕棿涓?2026/6/10 17:13:58銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhwspk\\cmTC_e6dfa.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a282g0\\cmTC_f9473.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhwspk\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e6dfa.dir\\Debug\\cmTC_e6dfa.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a282g0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f9473.dir\\Debug\\cmTC_f9473.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_e6dfa.dir\\Debug\\cmTC_e6dfa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_e6dfa.dir\\Debug\\cmTC_e6dfa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_f9473.dir\\Debug\\cmTC_f9473.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f9473.dir\\Debug\\cmTC_f9473.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e6dfa.dir\\Debug\\\\" /Fd"cmTC_e6dfa.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_f9473.dir\\Debug\\\\" /Fd"cmTC_f9473.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e6dfa.dir\\Debug\\\\" /Fd"cmTC_e6dfa.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_f9473.dir\\Debug\\\\" /Fd"cmTC_f9473.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhwspk\\Debug\\cmTC_e6dfa.exe" /INCREMENTAL /ILK:"cmTC_e6dfa.dir\\Debug\\cmTC_e6dfa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-zhwspk/Debug/cmTC_e6dfa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-zhwspk/Debug/cmTC_e6dfa.lib" /MACHINE:X64  /machine:x64 cmTC_e6dfa.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_e6dfa.vcxproj -> D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhwspk\\Debug\\cmTC_e6dfa.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a282g0\\Debug\\cmTC_f9473.exe" /INCREMENTAL /ILK:"cmTC_f9473.dir\\Debug\\cmTC_f9473.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-a282g0/Debug/cmTC_f9473.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-a282g0/Debug/cmTC_f9473.lib" /MACHINE:X64  /machine:x64 cmTC_f9473.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f9473.vcxproj -> D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a282g0\\Debug\\cmTC_f9473.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_e6dfa.dir\\Debug\\cmTC_e6dfa.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_e6dfa.dir\\Debug\\cmTC_e6dfa.tlog\\cmTC_e6dfa.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhwspk\\cmTC_e6dfa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f9473.dir\\Debug\\cmTC_f9473.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f9473.dir\\Debug\\cmTC_f9473.tlog\\cmTC_f9473.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a282g0\\cmTC_f9473.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.70
+        宸茬敤鏃堕棿 00:00:00.93
         
       exitCode: 0
   -
@@ -1514,8 +1543,8 @@ events:
       - "D:/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
       - "CMakeLists.txt:40 (find_package)"
     directories:
-      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-05j5ni"
-      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-05j5ni"
+      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-y5fafl"
+      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-y5fafl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1525,39 +1554,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-05j5ni'
+        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-y5fafl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da2b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b89cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
-        鐢熸垚鍚姩鏃堕棿涓?2026/6/8 13:55:51銆?
+        鐢熸垚鍚姩鏃堕棿涓?2026/6/10 17:13:59銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\cmTC_da2b2.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\cmTC_b89cd.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_da2b2.dir\\Debug\\cmTC_da2b2.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b89cd.dir\\Debug\\cmTC_b89cd.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_da2b2.dir\\Debug\\cmTC_da2b2.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_da2b2.dir\\Debug\\cmTC_da2b2.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_b89cd.dir\\Debug\\cmTC_b89cd.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b89cd.dir\\Debug\\cmTC_b89cd.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_da2b2.dir\\Debug\\\\" /Fd"cmTC_da2b2.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_b89cd.dir\\Debug\\\\" /Fd"cmTC_b89cd.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\src.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_da2b2.dir\\Debug\\\\" /Fd"cmTC_da2b2.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_b89cd.dir\\Debug\\\\" /Fd"cmTC_b89cd.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\src.cxx"
           src.cxx
-        D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\cmTC_da2b2.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\cmTC_da2b2.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\cmTC_b89cd.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\cmTC_b89cd.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\cmTC_da2b2.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\cmTC_b89cd.vcxproj鈥?榛樿鐩爣) (1) ->
         (ClCompile 鐩爣) -> 
-          D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05j5ni\\cmTC_da2b2.vcxproj]
+          D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\src.cxx(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5fafl\\cmTC_b89cd.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.44
+        宸茬敤鏃堕棿 00:00:00.60
         
       exitCode: 1
   -
@@ -1568,8 +1597,8 @@ events:
       - "D:/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
       - "CMakeLists.txt:40 (find_package)"
     directories:
-      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-r5fanf"
-      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-r5fanf"
+      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-fknt8p"
+      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-fknt8p"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1579,41 +1608,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-r5fanf'
+        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-fknt8p'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68aee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46e31.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
-        鐢熸垚鍚姩鏃堕棿涓?2026/6/8 13:55:52銆?
+        鐢熸垚鍚姩鏃堕棿涓?2026/6/10 17:14:00銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\cmTC_68aee.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\cmTC_46e31.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_68aee.dir\\Debug\\cmTC_68aee.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_46e31.dir\\Debug\\cmTC_46e31.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_68aee.dir\\Debug\\cmTC_68aee.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_68aee.dir\\Debug\\cmTC_68aee.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_46e31.dir\\Debug\\cmTC_46e31.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_46e31.dir\\Debug\\cmTC_46e31.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_68aee.dir\\Debug\\\\" /Fd"cmTC_68aee.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_46e31.dir\\Debug\\\\" /Fd"cmTC_46e31.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\CheckFunctionExists.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_68aee.dir\\Debug\\\\" /Fd"cmTC_68aee.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\CheckFunctionExists.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_46e31.dir\\Debug\\\\" /Fd"cmTC_46e31.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\Debug\\cmTC_68aee.exe" /INCREMENTAL /ILK:"cmTC_68aee.dir\\Debug\\cmTC_68aee.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-r5fanf/Debug/cmTC_68aee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-r5fanf/Debug/cmTC_68aee.lib" /MACHINE:X64  /machine:x64 cmTC_68aee.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\cmTC_68aee.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\cmTC_68aee.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\Debug\\cmTC_46e31.exe" /INCREMENTAL /ILK:"cmTC_46e31.dir\\Debug\\cmTC_46e31.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-fknt8p/Debug/cmTC_46e31.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-fknt8p/Debug/cmTC_46e31.lib" /MACHINE:X64  /machine:x64 cmTC_46e31.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\cmTC_46e31.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\cmTC_46e31.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\cmTC_68aee.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\cmTC_46e31.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5fanf\\cmTC_68aee.vcxproj]
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fknt8p\\cmTC_46e31.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.54
+        宸茬敤鏃堕棿 00:00:00.75
         
       exitCode: 1
   -
@@ -1624,8 +1653,8 @@ events:
       - "D:/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
       - "CMakeLists.txt:40 (find_package)"
     directories:
-      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-uq5wxa"
-      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-uq5wxa"
+      source: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-aiwtzd"
+      binary: "D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-aiwtzd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1635,41 +1664,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-uq5wxa'
+        Change Dir: 'D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-aiwtzd'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_575d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b9c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.14+a129329f1
-        鐢熸垚鍚姩鏃堕棿涓?2026/6/8 13:55:52銆?
+        鐢熸垚鍚姩鏃堕棿涓?2026/6/10 17:14:01銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\cmTC_575d6.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\cmTC_4b9c7.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_575d6.dir\\Debug\\cmTC_575d6.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4b9c7.dir\\Debug\\cmTC_4b9c7.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_575d6.dir\\Debug\\cmTC_575d6.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_575d6.dir\\Debug\\cmTC_575d6.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_4b9c7.dir\\Debug\\cmTC_4b9c7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4b9c7.dir\\Debug\\cmTC_4b9c7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_575d6.dir\\Debug\\\\" /Fd"cmTC_575d6.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_4b9c7.dir\\Debug\\\\" /Fd"cmTC_4b9c7.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\CheckFunctionExists.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35211 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_575d6.dir\\Debug\\\\" /Fd"cmTC_575d6.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\CheckFunctionExists.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_4b9c7.dir\\Debug\\\\" /Fd"cmTC_4b9c7.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\Debug\\cmTC_575d6.exe" /INCREMENTAL /ILK:"cmTC_575d6.dir\\Debug\\cmTC_575d6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-uq5wxa/Debug/cmTC_575d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-uq5wxa/Debug/cmTC_575d6.lib" /MACHINE:X64  /machine:x64 cmTC_575d6.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\cmTC_575d6.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\cmTC_575d6.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\Debug\\cmTC_4b9c7.exe" /INCREMENTAL /ILK:"cmTC_4b9c7.dir\\Debug\\cmTC_4b9c7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-aiwtzd/Debug/cmTC_4b9c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/CodeProjects/University/2.5/CaoZuoXiTong/KeShe/build/CMakeFiles/CMakeScratch/TryCompile-aiwtzd/Debug/cmTC_4b9c7.lib" /MACHINE:X64  /machine:x64 cmTC_4b9c7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\cmTC_4b9c7.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\cmTC_4b9c7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\cmTC_575d6.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\cmTC_4b9c7.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq5wxa\\cmTC_575d6.vcxproj]
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\CodeProjects\\University\\2.5\\CaoZuoXiTong\\KeShe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aiwtzd\\cmTC_4b9c7.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.58
+        宸茬敤鏃堕棿 00:00:00.75
         
       exitCode: 1
 ...

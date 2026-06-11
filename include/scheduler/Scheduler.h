@@ -11,7 +11,7 @@ class MemoryManager;
 class Scheduler {
 public:
     Scheduler(MLFQ& mlfq, ProcessManager& pm, MemoryManager& mm,
-              std::mutex* backend_mtx = nullptr);
+              std::shared_mutex* backend_mtx = nullptr);
 
     ~Scheduler();
 
@@ -35,7 +35,7 @@ private:
     MLFQ&           mlfq_;
     ProcessManager& pm_;
     MemoryManager&  mm_;
-    std::mutex*     backend_mtx_ = nullptr;
+    std::shared_mutex* backend_mtx_ = nullptr;
 
     std::atomic<bool> running_{false};
     std::thread        worker_;

@@ -1,7 +1,6 @@
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\backend\BackendEngine.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\BackendEngine.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\core\Platform.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\Platform.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeClient.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\PipeClient.obj
-D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ipc\PipeServer.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\PipeServer.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\main.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\main.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\memory\MemoryManager.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\MemoryManager.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\Serializer.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\Serializer.obj
@@ -9,7 +8,5 @@ D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\persist\StateFile.cpp;D:\C
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\process\ProcessManager.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\ProcessManager.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\MLFQ.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\MLFQ.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\scheduler\Scheduler.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\Scheduler.obj
-D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\FileLock.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\FileLock.obj
-D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\thread\SharedQueue.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\SharedQueue.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\ui\CommandParser.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\CommandParser.obj
 D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\src\user\UserManager.cpp;D:\CodeProjects\University\2.5\CaoZuoXiTong\KeShe\build\OSCoreSimulator.dir\Debug\UserManager.obj

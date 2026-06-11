@@ -171,7 +171,7 @@ std::string ProcessManager::show_pcb(uint32_t pid) const {
 }
 
 // ── 6. list_pcb ──
-std::string ProcessManager::list_pcb(const std::string& owner) const {
+std::string ProcessManager::list_pcb() const {
     std::ostringstream oss;
     oss << "PID\t名称\t\t状态\t\t队列\t总时间\t剩余" << std::endl;
     oss << "───────────────────────────────────────────────────────" << std::endl;
@@ -179,7 +179,6 @@ std::string ProcessManager::list_pcb(const std::string& owner) const {
     int count = 0;
     for (const auto& p : pcbs_) {
         if (p.state == ProcessState::TERMINATED) continue;
-        if (!owner.empty() && p.owner != owner && p.pid != 1) continue;
         oss << p.pid << "\t"
             << p.name << "\t\t"
             << state_to_string(p.state)
@@ -197,11 +196,10 @@ std::string ProcessManager::list_pcb(const std::string& owner) const {
 
 // ── 7. ptree ──
 static void ptree_recurse(uint32_t pid, const std::string& prefix, bool is_last,
-                          const std::vector<PCB>& pcbs, const std::string& owner,
+                          const std::vector<PCB>& pcbs,
                           std::ostringstream& oss) {
     auto it = std::find_if(pcbs.begin(), pcbs.end(), [pid](const PCB& p) { return p.pid == pid; });
     if (it == pcbs.end() || it->state == ProcessState::TERMINATED) return;
-    if (!owner.empty() && it->owner != owner && pid != 1) return;
 
     oss << prefix;
     if (is_last && !prefix.empty()) {
@@ -223,7 +221,6 @@ static void ptree_recurse(uint32_t pid, const std::string& prefix, bool is_last,
     for (auto cid : it->children_pids) {
         auto cit = std::find_if(pcbs.begin(), pcbs.end(), [cid](const PCB& p) { return p.pid == cid; });
         if (cit == pcbs.end() || cit->state == ProcessState::TERMINATED) continue;
-        if (!owner.empty() && cit->owner != owner) continue;
         visible.push_back(cid);
     }
 
@@ -239,12 +236,12 @@ static void ptree_recurse(uint32_t pid, const std::string& prefix, bool is_last,
     }
 
     for (size_t i = 0; i < visible.size(); ++i)
-        ptree_recurse(visible[i], child_prefix, i == visible.size() - 1, pcbs, owner, oss);
+        ptree_recurse(visible[i], child_prefix, i == visible.size() - 1, pcbs, oss);
 }
 
-std::string ProcessManager::ptree(const std::string& owner) const {
+std::string ProcessManager::ptree() const {
     std::ostringstream oss;
-    ptree_recurse(1, "", false, pcbs_, owner, oss);
+    ptree_recurse(1, "", false, pcbs_, oss);
     return oss.str();
 }
 

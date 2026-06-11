@@ -13,7 +13,7 @@ struct UserState {
     MLFQ            mlfq;
     std::unique_ptr<Scheduler> scheduler;
 
-    void init_scheduler(std::mutex* mtx) {
+    void init_scheduler(std::shared_mutex* mtx) {
         if (scheduler) scheduler.reset();
         scheduler.reset(new Scheduler(mlfq, pm, mm, mtx));
     }

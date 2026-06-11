@@ -14,8 +14,7 @@ public:
     // ── 8 个内存命令 ──
     std::string alloc(uint32_t size, uint32_t pid, const std::string& pname);
     std::string free_mem(uint32_t start_addr);
-    std::string show_mem(const ProcessManager* pm = nullptr,
-                         const std::string& owner = "") const;
+    std::string show_mem() const;
     std::vector<CompactResult> compact();
     std::string mem_stat() const;
     std::string set_alloc_algo(const std::string& algo_name);
